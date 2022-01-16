@@ -33,11 +33,16 @@ body {
   font-size: 1.8rem;
 }
 
+.primary-btn{
+    background-color: #1da1f2;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    color: white;
+}
+
 .tweet-btn {
-  background-color: #1da1f2;
-  border: none;
-  padding: 15px 25px;
-  border-radius: 50px;
+ 
   font-size: 1rem;
   font-weight: bolder;
   color: white;
@@ -76,11 +81,11 @@ body {
     left: 10px;
     top:5px;
 }
-/*  */
-main {
-  border: 1px solid white;
-  width: 50%;
+.small-tweet-btn{
+    display: none;
 }
+/*  */
+
 
 .right-container {
   border: 1px solid white;

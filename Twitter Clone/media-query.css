@@ -1,0 +1,21 @@
+
+@media screen and (max-width:900px) {
+    .tabs-container div span{
+        display: none;
+    }
+    .tabs-container{
+        align-items: center;
+    }
+    .left-profile-container .image-container{
+        margin: 0 auto;
+    }
+    .user-detail{
+        display: none;
+    }
+    .small-tweet-btn{
+        display: block;
+    }
+    .tweet-btn{
+        display: none;
+    }
+}

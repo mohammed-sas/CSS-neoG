@@ -19,6 +19,12 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main-content.css" />
+    <link
+      rel="stylesheet"
+      href="media-query.css
+    "
+    />
   </head>
   <body>
     <aside class="left-container">
@@ -26,26 +32,131 @@
         <div><i class="fab fa-twitter"></i></div>
         <div><i class="fas fa-home"></i><span>Home</span></div>
         <div><i class="fas fa-hashtag"></i><span>Explore</span></div>
-        <div class="badge"><i class="fas fa-bell"></i><span>Notifications</span> <span class="notification-num">4</span> </div>
+        <div class="badge">
+          <i class="fas fa-bell"></i><span>Notifications</span>
+          <span class="notification-num">4</span>
+        </div>
         <div><i class="fas fa-envelope"></i><span>Messages</span></div>
         <div><i class="fas fa-bookmark"></i><span>Bookmarks</span></div>
         <div><i class="fas fa-list-alt"></i><span>Lists</span></div>
         <div><i class="fas fa-user-alt"></i><span>Profile</span></div>
         <div><i class="fas fa-ellipsis-h"></i><span>More</span></div>
-        <button class="tweet-btn">Tweet</button>
+        <button class="tweet-btn primary-btn">Tweet</button>
+        <button class="primary-btn small-tweet-btn">T</button>
       </div>
       <div class="left-profile-container">
         <div class="image-container">
           <img src="./images/eST8i6Nw_400x400.jpeg" alt="" />
         </div>
         <div class="user-detail">
-            <span>Mohammed</span>
-            <span>@mhdsas</span>
+          <span>Mohammed</span>
+          <span>@mhdsas</span>
         </div>
-        
       </div>
     </aside>
-    <main></main>
+    <main>
+      <h2>Home</h2>
+      <div class="tweet-box">
+        <div class="input-tweet-container">
+          <div class="tweet-box">
+            <div class="display-picture">
+              <img src="./images/eST8i6Nw_400x400.jpeg" alt="" />
+            </div>
+            <input type="text" placeholder="What's Happening?" />
+          </div>
+          <div class="icon-container">
+            <div class="icons">
+              <i class="far fa-image"></i>
+              <i class="fas fa-poll-h"></i>
+              <i class="fas fa-smile-beam"></i>
+              <i class="far fa-calendar-alt"></i>
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <button class="primary-btn icon-btn">Tweet</button>
+          </div>
+        </div>
+      </div>
+      <div class="tweets-container">
+        <div class="display-picture">
+          <img src="./images/tanay.jpeg" alt="" />
+        </div>
+        <div class="tweet-body-container">
+          <div class="username-id-container">
+            <span>Tanay Pratap</span>
+            <span>@tanaypratap</span>
+            <span>2h</span>
+            <span><i class="fas fa-ellipsis-h"></i></span>
+          </div>
+          <div class="tweet-body">
+            <p>
+              What will you get? A close knit triad to work together. Mentorship
+              from some of the best folks from Industry. Job satisfaction.
+              Knowing that your work is transforming lives. Generous pay, early
+              stage ESOPs and regular benefits. No BMW.
+            </p>
+          </div>
+          <div class="tweet-footer">
+            <span><i class="far fa-comment"></i><span>1</span></span>
+            <span><i class="fas fa-retweet"></i><span>20</span></span>
+            <span><i class="far fa-heart"></i><span>345</span></span>
+            <span><i class="fas fa-upload"></i><span></span></span>
+          </div>
+        </div>
+      </div>
+      <div class="tweets-container">
+        <div class="display-picture">
+          <img src="./images/elon.jpeg" alt="" />
+        </div>
+        <div class="tweet-body-container">
+          <div class="username-id-container">
+            <span>Elon Musk</span>
+            <span>@elonmusk</span>
+            <span>3h</span>
+            <span><i class="fas fa-ellipsis-h"></i></span>
+          </div>
+          <div class="tweet-body">
+            <p>
+                1469 Starlink satellites active
+                272 moving to operational orbits
+                Laser links activate soon
+            </p>
+          </div>
+          <div class="tweet-footer">
+            <span><i class="far fa-comment"></i><span>10.2k</span></span>
+            <span><i class="fas fa-retweet"></i><span>35k</span></span>
+            <span><i class="far fa-heart"></i><span>125.8k</span></span>
+            <span><i class="fas fa-upload"></i><span></span></span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tweets-container">
+        <div class="display-picture">
+          <img src="./images/benedict.jpeg" alt="" />
+        </div>
+        <div class="tweet-body-container">
+          <div class="username-id-container">
+            <span>Benedict Cumberbatch</span>
+            <span>@cumber</span>
+            <span>2h</span>
+            <span><i class="fas fa-ellipsis-h"></i></span>
+          </div>
+          <div class="tweet-body">
+            <p>
+                Clapping hands sign Practice Clapping hands sign social Clapping hands sign distancing Clapping hands sign
+
+                Stop going to crowded public spaces, stop forming tight queues, stop treating this like a joke, because at this rate the punchline is going to be the deaths of the people you care about.
+            </p>
+          </div>
+          <div class="tweet-footer">
+            <span><i class="far fa-comment"></i><span>378</span></span>
+            <span><i class="fas fa-retweet"></i><span>20k</span></span>
+            <span><i class="far fa-heart"></i><span>20k</span></span>
+            <span><i class="fas fa-upload"></i><span></span></span>
+          </div>
+        </div>
+      </div>
+    </main>
     <aside class="right-container"></aside>
   </body>
 </html>
