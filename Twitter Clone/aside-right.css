@@ -1,0 +1,57 @@
+.right-container {
+    width: 30%;
+  }
+  
+
+.secondary-color{
+    color :#6e767d;
+}
+
+.font-size-12{
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.search-box{
+    display: flex;
+    background-color: #202327;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+.search-box>*{
+    background-color: inherit;
+}
+.search-box input{
+    border: none;
+    flex-grow: 1;
+    padding: 5px;
+}
+.search-box i{
+    margin-top: 5px;
+}
+
+.card{
+    display: flex;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image>img{
+    width: 75px;
+    height: 75px;
+}
+
+.whats-happening-container{
+    margin:10px 15px;
+    background-color: #6e767d;
+}
+   
