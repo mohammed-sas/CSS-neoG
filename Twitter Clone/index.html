@@ -20,7 +20,7 @@
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="main-content.css" />
-    <link rel="stylesheet" href="aside-right.css">
+    <link rel="stylesheet" href="aside-right.css" />
     <link
       rel="stylesheet"
       href="media-query.css
@@ -56,7 +56,7 @@
       </div>
     </aside>
     <main>
-      <h2>Home</h2>
+      <h2 class="margin-left-10">Home</h2>
       <div class="tweet-box">
         <div class="input-tweet-container">
           <div class="tweet-box">
@@ -117,9 +117,8 @@
           </div>
           <div class="tweet-body">
             <p>
-                1469 Starlink satellites active
-                272 moving to operational orbits
-                Laser links activate soon
+              1469 Starlink satellites active 272 moving to operational orbits
+              Laser links activate soon
             </p>
           </div>
           <div class="tweet-footer">
@@ -130,7 +129,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="tweets-container">
         <div class="display-picture">
           <img src="./images/benedict.jpeg" alt="" />
@@ -144,9 +143,11 @@
           </div>
           <div class="tweet-body">
             <p>
-                Clapping hands sign Practice Clapping hands sign social Clapping hands sign distancing Clapping hands sign
-
-                Stop going to crowded public spaces, stop forming tight queues, stop treating this like a joke, because at this rate the punchline is going to be the deaths of the people you care about.
+              Clapping hands sign Practice Clapping hands sign social Clapping
+              hands sign distancing Clapping hands sign Stop going to crowded
+              public spaces, stop forming tight queues, stop treating this like
+              a joke, because at this rate the punchline is going to be the
+              deaths of the people you care about.
             </p>
           </div>
           <div class="tweet-footer">
@@ -159,25 +160,82 @@
       </div>
     </main>
     <aside class="right-container">
-        <div class="search-box">
-            <i class="fas fa-search"></i>
-           <input type="text" placeholder="Search Twitter">
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search Twitter" />
+      </div>
+      <div class="whats-happening-container side-container">
+        <div class="header">
+          <h2>What's happening</h2>
         </div>
-        <div class="whats-happening-container">
-            <div class="header">
-                <h2>What's happening</h2>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <span class="secondary-color font-size-12">Cricket Live</span>
-                    <span>Virat Kohli steps down as India's Test captain</span>
-                     <span class="secondary-color font-size-12">Trending with #ViratKohliResigns</span>
-                </div>
-                <div class="card-image">
-                    <img src="./images/kohli.jpeg" alt="">
-                </div>
-            </div>
+        <div class="card margin-top-bottom-10">
+          <div class="card-body">
+            <span class="secondary-color font-size-12">Cricket Live</span>
+            <span class="bold"
+              >Virat Kohli steps down as India's Test captain</span
+            >
+            <span class="secondary-color font-size-12"
+              >Trending with <span class="trending-color">#ViratKohliResigns</span></span
+            >
+          </div>
+          <div class="card-image">
+            <img src="./images/kohli.jpeg" alt="" />
+          </div>
         </div>
+        <div class="card margin-top-bottom-10">
+          <div class="card-body">
+            <span class="secondary-color font-size-12">Tennis Live</span>
+            <span class="bold"
+              >Novak Djokovic deported from Australia after Federal Court
+              upholds decision to cancel visa</span
+            >
+            <span class="secondary-color font-size-12"
+              >Trending with <span class="trending-color">#NovakDeported</span></span
+            >
+          </div>
+          <div class="card-image">
+            <img src="./images/novak.jpeg" alt="" />
+          </div>
+        </div>
+        <div class="card margin-top-bottom-10">
+          <div class="card-body">
+            <span class="secondary-color font-size-12">Cricket Live</span>
+            <span class="bold"
+              >Virat Kohli vs MS Dhoni: Statistical comparison (Test
+              captaincy)</span
+            >
+            <span class="secondary-color font-size-12"
+              >Trending with <span class="trending-color">#ViratKohliResigns</span></span
+            >
+          </div>
+          <div class="card-image">
+            <img src="./images/dhoni.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="who-to-follow-container side-container">
+        <h2>Who to follow</h2>
+        <div class="card-two">
+          <div class="card-image">
+            <img src="./images//nium.jpeg"  class="border-radius-50" alt="">
+          </div>
+          <div class="typography">
+            <p class="bold" >NIUM</p>
+            <p class="font-size-12">@NiumGlobal</p>
+          </div>
+          <button class="follow-btn">Follow</button>
+        </div>
+        <div class="card-two">
+          <div class="card-image">
+            <img src="./images/neog.jpeg"  class="border-radius-50" alt="">
+          </div>
+          <div class="typography">
+            <p class="bold" >neog.camp</p>
+            <p class="font-size-12">@neogcamp</p>
+          </div>
+          <button class="follow-btn">Follow</button>
+        </div>
+      </div>
     </aside>
   </body>
 </html>
